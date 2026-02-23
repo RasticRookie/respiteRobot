@@ -5,6 +5,25 @@
 
   <title>Respite_Robot</title>
 
+  <div class="image-container">
+    <img src="main-image.jpg" alt="Main image" id="mainImage">
+    
+    <!-- Clickable "pictures" to control the sections -->
+    <img src="pic1-thumbnail.jpg" alt="Pic 1" class="controller" onclick="toggleSection('section1')">
+    <img src="pic2-thumbnail.jpg" alt="Pic 2" class="controller" onclick="toggleSection('section2')">
+
+    <!-- Interactive sections -->
+    <div id="section1" class="image-section">
+        <!-- Content or a specific image for section 1 -->
+        Section 1 Content
+    </div>
+    <div id="section2" class="image-section">
+        <!-- Content or a specific image for section 2 -->
+        Section 2 Content
+    </div>
+</div>
+
+
   <!-- Correct relative link -->
   <link rel="stylesheet" href="style.css">
 
@@ -14,6 +33,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  
 </head>
 
 <body>
